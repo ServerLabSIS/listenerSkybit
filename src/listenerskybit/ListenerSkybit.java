@@ -51,7 +51,7 @@ public class ListenerSkybit {
             while(true){
                 // Conexión del cliente
                 
-                System.out.println("Cliente conectado");
+                System.out.println("Trama recibida: ");
                 
                 //BufferedReader entrada = new BufferedReader(new InputStreamReader(sc.getInputStream()));
                 DataInputStream in = new DataInputStream(sc.getInputStream());
